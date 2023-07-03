@@ -1,0 +1,126 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 600px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.App h1{
+    text-align: center;
+}
+
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.form input[type="text"]{
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.form input[type="date"]{
+    padding: 10px;
+    width: 32%;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.form input[type="text"]:focus,
+.form button[type="submit"]:focus,
+.form input[type="date"]:focus{
+    outline: none;
+}
+
+.form button[type="submit"]{
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.todo-listItems{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.item-content{
+    width: 55%;
+}
+
+.date-content{
+    width: 20%;
+}
+
+.todo-item button{
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.todo-item button:focus{
+    outline: none;
+}
+
+.update-item{
+    background-color: goldenrod;
+    color: #ffffff;
+}
+
+.delete-item{
+    background-color: red;
+    color: #ffffff;
+}
+
+.update-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.update-new-input{
+    width: 304px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    padding: 8px;
+    outline: none;
+    margin-left: -5px;
+}
+
+.update-new-date {
+    width: 30%;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    padding: 8px;
+    outline: none;
+    margin-left: -2px;
+}
+
+.update-new-btn{
+    background-color: darkorchid;
+    color: #fff;
+    cursor: pointer;
+}
